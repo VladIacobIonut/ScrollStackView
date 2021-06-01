@@ -32,21 +32,17 @@ final class AppStoreDetailsViewController: ScrollStackViewController {
         stack {
             UIHostingController(rootView: AppStoreHeader())
                 .height(max: 400)
-            
             detailsLabel
                 .padding(top: 30)
-               
-            UISpacer()
-            
-            if isMyPost {
-                UIHostingController(rootView: FooterView())
-            } else {
-                shareButton
-            }
+            shareButton
         }
         
         detailsLabel.snp.makeConstraints {
             $0.leading.trailing.equalToSuperview().inset(8)
+        }
+        
+        shareButton.snp.makeConstraints {
+            $0.size.equalTo(70)
         }
                 
         detailsLabel.numberOfLines = 0
