@@ -18,7 +18,7 @@ final class CartViewController: ScrollStackViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = .secondarySystemBackground
         
         stack {
             cartHeader
