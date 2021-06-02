@@ -25,3 +25,29 @@ Of course there might be scenarios in which one view (in this case the ```detail
 
 <img align="right" src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/wspacer.png" width = "375" height = "812"/>
 
+<p align="left">
+
+```swift
+stack {
+    UIHostingController(rootView: AppStoreHeader())
+        .height(max: 400)
+    detailsLabel
+        .padding(top: 30)
+    shareButton
+}
+```
+</p>
+
+<p align="right">
+
+```swift
+stack {
+    UIHostingController(rootView: AppStoreHeader())
+        .height(max: 400)
+    detailsLabel
+        .padding(top: 30)
+    UISpacer()
+    shareButton
+}
+```
+</p>
