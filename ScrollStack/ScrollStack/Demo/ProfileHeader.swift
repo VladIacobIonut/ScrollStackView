@@ -29,22 +29,22 @@ class ProfileHeader: UIView {
         
         imageView.snp.makeConstraints {
             $0.top.equalToSuperview().offset(80)
-            $0.size.equalTo(100)
+            $0.size.equalTo(70)
             $0.centerX.equalToSuperview()
         }
         
         imageView.layer.cornerRadius = 35
         imageView.clipsToBounds = true
-        imageView.image = UIImage(named: "river")
+        imageView.image = UIImage(systemName: "cart.circle.fill")
         
         nameLabel.snp.makeConstraints {
-            $0.top.equalTo(imageView.snp.bottom).offset(50)
+            $0.top.equalTo(imageView.snp.bottom).offset(20)
             $0.centerX.equalToSuperview()
             $0.bottom.equalToSuperview().offset(-30)
         }
         
-        nameLabel.text = "Vlad Iacob"
+        nameLabel.text = "Checkout"
         nameLabel.textAlignment = .center
-        nameLabel.font = UIFont.systemFont(ofSize: 24, weight: .bold)
+        nameLabel.font = UIFont.systemFont(ofSize: 20, weight: .medium)
     }
 }

@@ -51,3 +51,18 @@ stack {
 }
 ``` 
 </p>
+
+Ofcourse components can change position and be swap positions in the hierarchy such that  ```shareButton```  for example can become the first element in the stack and the result is as expected. 
+
+Here's another example which showcases how ```UISpacer()``` can be used together with stack to create complex interfaces.
+
+<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/cart.png" width = "375" height = "812"/> <br>
+
+```swift
+stack {
+    cartHeader
+    UISpacer()
+    emptyLabel
+    CheckoutViewController()
+}
+``` 

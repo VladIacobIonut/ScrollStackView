@@ -36,14 +36,14 @@ final class CheckoutViewController: UIViewController {
         priceLabel.snp.makeConstraints {
             $0.top.equalTo(totalLabel.snp.bottom).offset(10)
             $0.leading.equalTo(totalLabel)
-            $0.bottom.equalToSuperview().offset(-20)
+            $0.bottom.equalToSuperview().offset(-50)
         }
         
         buyButton.snp.makeConstraints {
             $0.trailing.equalToSuperview().offset(-20)
             $0.width.equalTo(100)
             $0.height.equalTo(60)
-            $0.centerY.equalToSuperview()
+            $0.bottom.equalToSuperview().offset(-50)
         }
         
         totalLabel.font = UIFont.systemFont(ofSize: 15, weight: .medium)
@@ -52,7 +52,7 @@ final class CheckoutViewController: UIViewController {
         
         priceLabel.font = UIFont.systemFont(ofSize: 20, weight: .bold)
         priceLabel.textColor = .black
-        priceLabel.text = "6882.29 $"
+        priceLabel.text = "0.0 $"
         
         buyButton.backgroundColor = .systemBlue
         buyButton.setTitleColor(.white, for: .normal)
