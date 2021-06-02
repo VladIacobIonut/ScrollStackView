@@ -25,7 +25,7 @@ Of course there might be scenarios in which one view (in this case the ```detail
 
 <img align="right" src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/wspacer.png" width = "375" height = "812"/>
 
-<br/>
+<br/><br/>
 
 <p align="left">
 
