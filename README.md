@@ -25,9 +25,7 @@ Of course there might be scenarios in which one view (in this case the ```detail
 
 <img align="right" src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/wspacer.png" width = "375" height = "812"/>\
 
-<p>
-<br>
-
+\ 
 ```swift
 stack {
     UIHostingController(rootView: AppStoreHeader())
@@ -37,8 +35,7 @@ stack {
     shareButton
 }
 ```
-becomes
-
+\ 
 ```swift
 stack {
     UIHostingController(rootView: AppStoreHeader())
@@ -48,6 +45,4 @@ stack {
     UISpacer()
     shareButton
 }
-```
-</br>
-</p>
+``` 
