@@ -42,15 +42,13 @@ final class AppStoreDetailsViewController: ScrollStackViewController {
         }
         
         shareButton.snp.makeConstraints {
-            $0.size.equalTo(70)
+            $0.size.equalTo(100)
         }
                 
         detailsLabel.numberOfLines = 0
         detailsLabel.textAlignment = .justified
         detailsLabel.text = """
             The Northern Lights are actually the result of collisions between gaseous particles in the Earth's atmosphere with charged particles released from the sun's atmosphere. Variations in colour are due to the type of gas particles that are colliding. The most common auroral color, a pale yellowish-green, is produced by oxygen molecules located about 60 miles above the earth. Rare, all-red auroras are produced by high-altitude oxygen, at heights of up to 200 miles. Nitrogen produces blue or purplish-red aurora.
-            The bright dancing lights of the aurora are actually collisions between electrically charged particles from the sun that enter the earth's atmosphere. The lights are seen above the magnetic poles of the northern and southern hemispheres. They are known as 'Aurora borealis' in the north and 'Aurora australis' in the south..
-            Auroral displays appear in many colours although pale green and pink are the most common. Shades of red, yellow, green, blue, and violet have been reported. The lights appear in many forms from patches or scattered clouds of light to streamers, arcs, rippling curtains or shooting rays that light up the sky with an eerie glow.
         """
         
         shareButton.snp.makeConstraints {
