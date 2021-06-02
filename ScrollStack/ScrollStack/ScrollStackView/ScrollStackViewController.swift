@@ -62,7 +62,7 @@ class ScrollStackViewController: UIViewController {
             $0.centerY.equalToSuperview().priority(.low)
         }
         
-        stackView.backgroundColor = .white
+        stackView.backgroundColor = .secondarySystemBackground
         stackView.axis = .vertical
     }
         

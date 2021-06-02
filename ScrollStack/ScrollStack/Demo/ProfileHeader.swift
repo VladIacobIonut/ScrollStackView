@@ -25,7 +25,7 @@ class ProfileHeader: UIView {
     func setupUI() {
         addSubview(imageView)
         addSubview(nameLabel)
-        backgroundColor = .white
+        backgroundColor = .secondarySystemBackground
         
         imageView.snp.makeConstraints {
             $0.top.equalToSuperview().offset(80)

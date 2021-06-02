@@ -23,7 +23,7 @@ Of course there might be scenarios in which one view (in this case the ```detail
 
 <p align="left">
 
-<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/woutspacer.png" width = "375" height = "812"/> <br>
+<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/woutspacer.png" width = "375" height = "812" style="border-radius:50%"/> <br>
 
 ```swift
 stack {
@@ -38,7 +38,7 @@ stack {
 
 <p align="right">
 
-<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/wspacer.png" width = "375" height = "812"/> <br>
+<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/wspacer.png" width = "375" height = "812" style="border-radius:50%"/> <br>
 
 ```swift
 stack {
@@ -56,7 +56,7 @@ Ofcourse components can change position and be swap positions in the hierarchy s
 
 Here's another example which showcases how ```UISpacer()``` can be used together with stack to create complex interfaces.
 
-<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/cart.png" width = "375" height = "812"/> <br>
+<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/cart.png" width = "375" height = "812" style="border-radius:50%"/> <br>
 
 ```swift
 stack {
