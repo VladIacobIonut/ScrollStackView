@@ -27,8 +27,6 @@ Of course there might be scenarios in which one view (in this case the ```detail
 
 <br/><br/>
 
-<p align="left">
-
 ```swift
 stack {
     UIHostingController(rootView: AppStoreHeader())
@@ -38,9 +36,7 @@ stack {
     shareButton
 }
 ```
-</p>
-
-<p align="right">
+becomes
 
 ```swift
 stack {
@@ -52,4 +48,3 @@ stack {
     shareButton
 }
 ```
-</p>
