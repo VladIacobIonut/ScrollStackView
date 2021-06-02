@@ -23,7 +23,7 @@ Of course there might be scenarios in which one view (in this case the ```detail
 
 <p align="left">
 
-<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/woutspacer.png" width = "375" height = "812"/> <br><\br>
+<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/woutspacer.png" width = "375" height = "812"/> <br>
 
 ```swift
 stack {
@@ -38,7 +38,7 @@ stack {
 
 <p align="right">
 
-<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/wspacer.png" width = "375" height = "812"/> <br><\br>
+<img src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/wspacer.png" width = "375" height = "812"/> <br>
 
 ```swift
 stack {
