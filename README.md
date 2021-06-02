@@ -5,7 +5,7 @@ This component allows you to implement scrollable view controllers in a fast, fl
 
 Here’s some examples of what you can obtain with this:
 
-<img align="left" src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/scroll_1.gif" width="300"/>
+<img align="left" src="https://github.com/VladIacobIonut/ScrollStackView/blob/main/Assets/scroll_1.gif"/>
 
 And here’s the code required to compose this scrollable screen.
 
